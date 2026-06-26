@@ -60,8 +60,3 @@ mujweb/
 
 - 📧 robin.petr523@gmail.com
 - 📷 Instagram: [@petr.robin](https://instagram.com/petr.robin)
-
-## 📝 Notes
-
-This project is built as a learning project: I work through and understand every
-line of the code myself, using AI as a coding assistant and tutor along the way.
