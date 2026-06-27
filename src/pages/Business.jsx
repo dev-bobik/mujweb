@@ -4,7 +4,7 @@ function Business() {
   return (
     <>
       <main className="hero">
-        <p className="hero-eyebrow">IT na klíč pro firmy</p>
+        <p className="hero-eyebrow">Dostupné řešení pro Vaši firmu</p>
         <h1 className="hero-title">
           Kompletní IT zázemí pro vaši firmu
         </h1>

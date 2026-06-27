@@ -6,7 +6,9 @@
   --color-accent: #2dd4bf;
   --color-accent-soft: rgba(45, 212, 191, 0.12);
 
-  --font-sans: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --font-display: "Bricolage Grotesque", system-ui, sans-serif;
+  --font-sans: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --font-mono: "Space Mono", ui-monospace, "SFMono-Regular", monospace;
 
   --radius: 14px;
   --space-section: 6rem;
@@ -42,6 +44,7 @@ body {
 }
 
 .logo {
+  font-family: var(--font-display);
   font-weight: 700;
   font-size: 1.1rem;
   color: var(--color-text);
@@ -76,19 +79,21 @@ body {
 }
 
 .hero-eyebrow {
+  font-family: var(--font-mono);
   color: var(--color-accent);
-  font-size: 0.9rem;
-  font-weight: 600;
-  letter-spacing: 0.15em;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.2em;
   text-transform: uppercase;
   margin-bottom: 1.5rem;
 }
 
 .hero-title {
-  font-size: clamp(2.5rem, 6vw, 5rem);
+  font-family: var(--font-display);
+  font-size: clamp(2.75rem, 7vw, 5.5rem);
   font-weight: 800;
-  line-height: 1.1;
-  letter-spacing: -0.02em;
+  line-height: 1.05;
+  letter-spacing: -0.03em;
   margin-bottom: 1.5rem;
 }
 
@@ -123,6 +128,7 @@ body {
 }
 
 .section-title {
+  font-family: var(--font-display);
   font-size: clamp(2rem, 4vw, 3rem);
   font-weight: 800;
   letter-spacing: -0.02em;
@@ -156,6 +162,7 @@ body {
 }
 
 .card-title {
+  font-family: var(--font-display);
   font-size: 1.3rem;
   font-weight: 700;
   margin-bottom: 0.75rem;
@@ -179,8 +186,12 @@ body {
 }
 
 .about-heading {
-  font-size: 1.1rem;
+  font-family: var(--font-mono);
+  font-size: 0.85rem;
   font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  color: var(--color-accent);
   margin-bottom: 1rem;
   margin-top: 2rem;
 }
@@ -246,7 +257,8 @@ body {
 }
 
 .contact-label {
-  font-size: 0.85rem;
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
   text-transform: uppercase;
   letter-spacing: 0.1em;
   color: var(--color-text-muted);
